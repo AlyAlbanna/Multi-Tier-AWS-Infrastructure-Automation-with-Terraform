@@ -101,12 +101,6 @@ curl http://$(terraform output -raw external_alb_dns_name)
   with `ami_id` if you need something specific.
 - Adjust `az_count` / CIDR lists together if you want more than 2 AZs.
 
-## Push to GitHub
-
-If this repository is new or you want to update the remote with your changes:
-
-```bash
-git add README.md
 git commit -m "Update README with architecture diagram and GitHub push guidance"
 git push origin main
 ```
