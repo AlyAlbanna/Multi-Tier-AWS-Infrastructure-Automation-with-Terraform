@@ -1,0 +1,5 @@
+aws_region        = "us-east-1"
+project_name      = "three-tier-infra"
+environment       = "dev"
+state_bucket_name = "my-org-terraform-state-bucket" # must be globally unique
+lock_table_name   = "terraform-locks"
