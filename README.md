@@ -100,9 +100,3 @@ curl http://$(terraform output -raw external_alb_dns_name)
 - Default AMI is auto-resolved to the latest Amazon Linux 2023 image; override
   with `ami_id` if you need something specific.
 - Adjust `az_count` / CIDR lists together if you want more than 2 AZs.
-
-git commit -m "Update README with architecture diagram and GitHub push guidance"
-git push origin main
-```
-
-If your default branch is not `main`, replace `main` with your branch name.
