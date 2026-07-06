@@ -8,7 +8,7 @@ internet access from the private subnets.
 
 ## Architecture
 
-![AWS Three-Tier Architecture](architecture-diagram.png)
+![AWS Three-Tier Architecture](./architecture/arch.png)
 
 This deployment uses:
 
